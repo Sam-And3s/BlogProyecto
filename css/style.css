@@ -169,10 +169,13 @@
 }
 
 .navbar-brand {
-    margin-left: -12px !important;
+    margin-left: 0 !important;
 }
 
 @media (min-width: 992px) {
+    .navbar-brand {
+        margin-left: -12px !important;
+    }
     .navbar .nav-item .dropdown-menu {
         display: block;
         visibility: hidden;
